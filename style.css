@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#inputs{
+    display: none;
+    width: 100%;
+    text-align: center;
+    
+}
+
+button:hover {
+    background-color: rgb(41, 41, 206);
+    transition: all 0.3s ease;
+}
+
+.post{
+    margin-top: 5%;
+    border: none;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    width: 180px;
+    height: 50px;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.add{
+    border: none;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 40px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+.posted{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+width: 50%;
+text-align: center;
+}
+#input{
+    resize: none;
+    align-content: center;
+    height: 10vh;
+    width: 20vw;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+#secondInput{
+    resize: none;
+    height: 20vh;
+    width: 40vw;
+    text-align: center;
+    align-content: center;
+}
+#para{
+    text-align: center;
+    width: 50%;
+}
