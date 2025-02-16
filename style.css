@@ -38,6 +38,7 @@ button:hover {
     border-radius: 5px;
 }
 .posted{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;

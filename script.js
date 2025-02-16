@@ -19,6 +19,7 @@ function post() {
     createDiv.appendChild(createpara);
 
     document.body.appendChild(createDiv);
+    
 
    document.getElementById('input').value = "";
    document.getElementById('secondInput').value = "";
